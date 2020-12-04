@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+:root{
+    --primary-color: #8db596;
+    --text-color: #F3F4F6;
+    --background-color:#bedbbb
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #bedbbb;
+    font-family: 'Kalam', cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 1rem;
+}
+
+h1{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    min-width: 400px; /*same as footer*/
+}
+
+img{
+    max-width: 400px;
+    border-radius: 70px;
+    margin: auto;
+}
+
+.container p{
+    font-size: large;
+    font-weight: 600;
+}
+.section{
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    margin: auto;
+    
+}
+
+#inputText{
+    height: 20vh;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+    opacity: 0.5;
+    font-weight: bold;
+    min-width: 250px ;
+}
+
+#btn{
+    background-color: var(--primary-color);
+    min-width: 10rem;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+    padding: 0.8rem 1.5rem;
+    margin: auto;
+    border-style: none;
+    cursor: pointer;
+    font-size: large;
+}
+button:hover{
+    color: var(--text-color);
+}
+.link a:hover{
+    color: var(--text-color);
+}
+
+#outputText{
+    height: 20vh;
+    padding: 1rem;
+    margin: 2rem;
+    min-width: 250px ;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative; /*to make footer go to the bottom*/
+    bottom: 0;
+    min-width: 400px;
+}
+.footer-div{
+font-size: large;
+font-weight: bolder;
+color: var(--sec-color);
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+}
